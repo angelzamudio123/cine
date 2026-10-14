@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinépolis</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        /* Barra de navegación */
+        nav{
+            background-color: #003366;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        /* Encabezado */
+        header{
+            background-color: #0059b3;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Secciones */
+        section{
+            padding: 20px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        /* Películas */
+        .contenedor-peliculas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .pelicula{
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 220px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .pelicula img{
+            width: 200px;
+            height: 300px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        /* Formulario */
+        form{
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        form input{
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        form button{
+            width: 100%;
+            padding: 10px;
+            background-color: #0059b3;
+            color: white;
+            border: none;
+        }
+
+        /* Footer */
+        footer{
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav>
+        #inicioInicio</a>
+        #carteleraCartelera</a>
+        #estrenosEstrenos</a>
+        #clubClub Cinépolis</a>
+    </nav>
+
+    <!-- Encabezado -->
+    <header id="inicio">
+        <h1>CINÉPOLIS</h1>
+        <p>Disfruta de las mejores películas</p>
+    </header>
+
+    <!-- Club Cinépolis -->
+    <section id="club">
+
+        <h2>Iniciar Sesión Club Cinépolis</h2>
+
+        <form>
+            <label>Número de tarjeta</label>
+            <input type="text" placeholder="Ingrese su tarjeta">
+
+            <label>Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña">
+
+            <button>Ingresar</button>
+        </form>
+
+    </section>
+
+    <!-- Cartelera -->
+    <section id="cartelera">
+
+        <h2>Películas en Cartelera</h2>
+
+        <div class="contenedor-peliculas">
+
+            <div class="pelicula">
+                <img src="avatar.jpg">
+                <h3>Avatar</h3>
+                <p>Ciencia ficción y aventura.</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="intensamente.jpg">
+                <h3>Intensamente 2</h3>
+                <p>Película animada para toda la familia.</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="deadpool.jpg">
+                <h3>Deadpool y Wolverine</h3>
+                <p>Acción, aventura y comedia.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Próximos Estrenos -->
+    <section id="estrenos">
+
+        <h2>Próximos Estrenos</h2>
+
+        <div class="contenedor-peliculas">
+
+            <div class="pelicula">
+                <img src="madre.jpg">
+                <h3>Madre Siniestra</h3>
+                <p>Próximamente en Cinépolis.</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="hope.jpg">
+                <h3>Hope: El Primer Impacto</h3>
+                <p>Próximamente en Cinépolis.</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="mal.jpg">
+                <h3>Un Mal Partido</h3>
+                <p>Próximamente en Cinépolis.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Zamudio Vega Angel Eduardo</p>
+        <p>5-i</p>
+        <p>24308051280679</p>
+        <p>programacion</p>
+    </footer>
+
+</body>
+</html>
